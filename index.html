@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Survey Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>First Survey Page</h1>
+
+    <div id="form">
+
+        <div class="form-control">
+
+            <label for="name" id="label-name">
+                Name:
+            </label>
+
+            <input type="text" id="name" placeholder="Your name here">
+
+        </div>
+
+        <div class="form-control">
+
+            <label for="email" id="label-email">
+                Email:
+            </label>
+
+            <input type="email" id="email" placeholder="Your email here">
+
+        </div>
+
+        <div class="form-control">
+
+            <label for="age" id="label-age">
+                Age:
+            </label>
+
+            <input type="number" id="age" min="1" placeholder="Your age here">
+
+        </div>
+
+        <div class="form-control">
+
+            <label for="role" id="label-role">
+                Which option best describes your?
+            </label>
+
+            <select name="select" id="role">
+
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+
+            </select>
+
+        </div>
+
+        <div class="form-control">
+
+            <label for="recommend" id="label-recommend">
+                Would you recommend this survey to a friend?
+            </label>
+
+            <label for="recommend-1">
+
+                <input type="radio" name="recommend" id="recommend-1" value="yes"> Yes
+
+            </label>
+
+            <label for="recommend-2">
+
+                <input type="radio" name="recommend" id="recommend-2" value="no"> No
+
+            </label>
+
+            <label for="recommend-3">
+
+                <input type="radio" name="recommend" id="recommend-3" value="maybe"> Maybe
+
+            </label>
+
+        </div>
+
+        <div class="form-control">
+
+            <label> Languages known
+                <small>(Check all that apply)</small>:
+            </label>
+
+            <label for="inp-c">
+
+                <input type="checkbox" id="inp-c" name="inp-c"> C
+
+            </label>
+
+            <label for="inp-c++">
+
+                <input type="checkbox" id="inp-c++" name="inp-c++"> C++
+
+            </label>
+
+            <label for="inp-c#">
+
+                <input type="checkbox" id="inp-c#" name="inp-c#"> C#
+
+            </label>
+
+            <label for="inp-java">
+
+                <input type="checkbox" id="inp-java" name="inp-java"> Java
+
+            </label>
+
+            <label for="inp-python">
+
+                <input type="checkbox" id="inp-python" name="inp-python"> Python
+
+            </label>
+
+            <label for="inp-php">
+
+                <input type="checkbox" id="inp-php" name="inp-php"> PHP
+
+            </label>
+
+            <label for="inp-javascript">
+
+                <input type="checkbox" id="inp-javascript" name="inp-javascript"> JavaScript
+
+            </label>
+
+        </div>
+
+        <div class="form-control">
+
+            <label for="comment" id="label-comment">
+                Any comments or suggestions?
+            </label>
+
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Your comment here"></textarea>
+
+        </div>
+
+        <button type="submit" id="submit">
+            Submit
+        </button>
+    </div>
+</body>
+</html>
